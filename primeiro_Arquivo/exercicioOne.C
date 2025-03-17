@@ -6,19 +6,19 @@ int main(){
     scanf("%lf",&nota);
 
     if (nota >= 9){
-        printf("Conceito A\n");
+        printf("Passou de ano, com maestria\n");
     }
     else if (nota >= 7){
-        printf("Conceito B\n");
+        printf("Passou de ano\n");
     }
     else if (nota >= 5){
-        printf("Conceito C\n");
+        printf("Reprovado, solicitar prova substitutiva\n");
     }
     else if (nota >= 3){
-        printf("Conceito D\n");
+        printf("Repovado, sem prova substitutiva\n");
     }
     else if (nota < 3){
-        printf("Reprovado\n");
+        printf("Reprovado, com maestria\n");
     }
     else{
         printf("Errou algo ai amigao");

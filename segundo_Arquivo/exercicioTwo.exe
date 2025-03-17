@@ -6,7 +6,7 @@ int main(){
     int idade;
 
     printf("Informe o seu nome: ");
-    scanf("%s",nome);
+    fgets(nome, 49, stdin);
 
     printf("Informe a sua idade: ")/
     scanf("%d",&idade);
